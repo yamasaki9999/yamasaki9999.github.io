@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>電費ログ - 認証中</title>
+  <script>
+    // Tesla からのコールバックパラメータをそのままアプリスキームに転送
+    window.location.replace("denpilog://callback" + window.location.search);
+  </script>
+  <style>
+    body { font-family: -apple-system, sans-serif; display: flex; justify-content: center;
+           align-items: center; height: 100vh; margin: 0; background: #f5f5f7; }
+    p { color: #555; font-size: 17px; }
+  </style>
+</head>
+<body>
+  <p>アプリに戻っています...</p>
+</body>
+</html>
